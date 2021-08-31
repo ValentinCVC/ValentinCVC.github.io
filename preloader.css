@@ -595,7 +595,10 @@ span.psw {
 	body {
 		margin: 0;
 		padding: 0;
-		background-color: #bfbfbf;
+  		width: 100%;
+ 		 height: 100vh;
+  		font-family: "Helvetica";
+  		background: #e3e3e3;
 	}
 	.footer-distributed {
 		width: 100%;
@@ -611,7 +614,7 @@ span.psw {
 		font-size: 30px;
 		text-align: center;
 		margin-top: 50px;
-		margin-left: 5px;
+		margin-left: 25px;
 	}
 	.title2 {
 		margin-top: 80px;
