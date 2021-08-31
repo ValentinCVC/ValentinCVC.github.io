@@ -592,7 +592,45 @@ span.psw {
 	}
 }
 
-
+@media (max-width: 350px) {
+	body {
+		margin: 0;
+	}
+	.footer-distributed {
+		width: 100%;
+		margin-left: 20px;
+	}
+	.logo {
+		position: absolute;
+		top: 0;
+		left: 165px;
+	}
+	.title {
+		font-size: 30px;
+		text-align: center;
+		margin-top: 50px;
+		margin-left: 25px;
+	}
+	.title2 {
+		margin-top: 80px;
+		margin-left: 15px;
+	}
+	img {
+		display: none;
+	}
+	.text1 {
+		margin-top: -20px;
+		margin-left: 40px;
+	}
+	.text2 {
+		margin-top: 65px;
+		margin-left: 39px;
+	}
+	.text3 {
+		margin-top: 120px;
+		margin-left: 39px;
+	}
+}
 
 
 /* DESPRE MINE DESPRE MINE DESPRE MINE DESPRE MINE DESPRE MINE */
