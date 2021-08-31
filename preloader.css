@@ -58,7 +58,7 @@ display: none;
 #preloader{
 width:100%;
 height:100vh;
-background:#101010;
+background: red;
 overflow:hidden;
 position:fixed;
 transition-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
