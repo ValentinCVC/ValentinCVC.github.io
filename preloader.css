@@ -604,6 +604,7 @@ span.psw {
 		width: 100%;
 		margin-left: 0;
 		border-top: 2px solid black;
+		background-color: red;
 	}
 	
 	.footer-distributed .footer-logo,
