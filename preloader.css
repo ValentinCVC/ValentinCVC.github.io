@@ -630,6 +630,7 @@ span.psw {
 		font-size: 30px;
 		text-align: center;
 		margin-top: 50px;
+		display: none;
 	}
 	.title2 {
 		margin-top: 80px;
