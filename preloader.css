@@ -602,8 +602,8 @@ span.psw {
 	}
 	.footer-distributed {
 		width: 100%;
-		margin-left: 0;
-		background-color: #f1f1f1;
+		margin-left: 10px;
+		background-color: #b2b2b2;
 	}
 	
 	.footer-distributed .footer-logo,
@@ -628,7 +628,7 @@ span.psw {
 		font-size: 30px;
 		text-align: center;
 		margin-top: 50px;
-		margin-left: 5px;
+		margin-left: 10px;
 	}
 	.title2 {
 		margin-top: 80px;
