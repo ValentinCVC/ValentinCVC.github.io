@@ -629,7 +629,9 @@ span.psw {
 	.title {
 		font-size: 30px;
 		text-align: center;
-		margin-top: 50px;	}
+		margin-top: 50px;
+	margin-left: 0px;
+	}
 	.title2 {
 		margin-top: 80px;
 		margin-left: 5px;
@@ -652,6 +654,9 @@ span.psw {
 	.left-abilitati {
 		height: 100%;
 	}
+	.right {
+height: 100%;
+}
 }
 
 
