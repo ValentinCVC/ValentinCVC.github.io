@@ -614,8 +614,9 @@ span.psw {
 		width: 130%;
 		margin-bottom: 30px;
 		text-align: center;
-		margin: 0;
-		margin-left: -100px;
+		margin: 30px;
+		margin-left: -90px;
+		margin-top: -30px;
 	}
 	
 	.logo {
