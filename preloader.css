@@ -630,7 +630,7 @@ span.psw {
 		font-size: 30px;
 		text-align: center;
 		margin-top: 50px;
-	margin-left: 0px;
+	        margin-left: 0px;
 	}
 	.title2 {
 		margin-top: 80px;
@@ -653,7 +653,10 @@ span.psw {
 	}
 	.right {
                 height: 100%;
-}
+	}
+	.left-abilitati {
+	height: 100%;
+	}
 }
 
 
