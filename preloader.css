@@ -629,10 +629,10 @@ span.psw {
 	}
 	.title {
 		font-size: 30px;
+		border: none;
 		text-align: center;
 		margin-top: 50px;
 	        margin-left: 0px;
-		border: none;
 	}
 	.title2 {
 		margin-top: 80px;
