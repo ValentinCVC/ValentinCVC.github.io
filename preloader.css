@@ -643,17 +643,17 @@ span.psw {
 	.text1 {
 		margin-top: -20px;
 		margin-left: 30px;
-		display: none;
+
 	}
 	.text2 {
 		margin-top: 65px;
 		margin-left: 25px;
-		display: none;
+
 	}
 	.text3 {
 		margin-top: 120px;
 		margin-left: 23px;
-		display: none;
+
 	}
 	.right {
                 height: 100%;
@@ -661,7 +661,45 @@ span.psw {
 	.left-abilitati {
 	height: 100%;
 	}
+	
+	.text-dropdown {
+		width: auto;
+	}
 
+	.dropbtn {
+		background-color: #3f3f3f;
+		color: white;
+		padding: 16px;
+		font-size: 16px;
+		border: none;
+		cursor: pointer;
+	  }
+	
+	.dropdown {
+		position: relative;
+		display: inline-block;
+	  }
+	  
+	  .dropdown-content {
+		display: none;
+		position: absolute;
+		background-color: #f1f1f1;
+		min-width: 160px;
+		overflow: hidden;
+		box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+		text-align: center;
+	  }
+	  
+	  .dropdown-content a {
+		color: black;
+		padding: 12px 16px;
+		text-decoration: none;
+		display: block;
+	  }
+	  
+	  .dropdown a:hover {background-color: #ddd;}
+	  
+	  .show {display: block;}
 }
 
 
