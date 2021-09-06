@@ -631,7 +631,6 @@ span.psw {
 		text-align: center;
 		margin-top: 50px;
 	        margin-left: 0px;
-		display: none;
 	}
 	.title2 {
 		margin-top: 80px;
@@ -660,7 +659,7 @@ span.psw {
                 height: 100%;
 	}
 	.sm {
-	margin-bottom: 50px;
+	margin-bottom: 100px;
 	}
 		.text-dropdown {
 		width: auto;
