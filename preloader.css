@@ -605,6 +605,14 @@ span.psw {
   		font-family: "Helvetica";
   		background: #e3e3e3;
 	}
+	.text-right {
+	margin-top: 0;
+	}
+	.text-right hr {
+		width: 250px; 
+		margin-left: 0; 
+		margin-top: 0;
+	}
 	.footer-distributed {
 		width: 100%;
 		margin-left: 0px;
