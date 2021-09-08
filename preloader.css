@@ -720,6 +720,10 @@ span.psw {
 	  .dropdown a:hover {background-color: #ddd;}
 	  
 	  .show {display: block;}
+	
+	.abilitati-titlu {
+		  margin-top: -50px;
+	  }
 }
 
 
