@@ -608,6 +608,9 @@ span.psw {
 	.text-right {
 	margin-top: 0;
 	}
+	.row-icons {
+		  margin-top: -50px;
+	  }
 	.text-right hr {
 		width: 250px; 
 		margin-left: 0; 
