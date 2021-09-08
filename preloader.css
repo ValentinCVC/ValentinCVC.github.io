@@ -628,6 +628,8 @@ span.psw {
 	
 	.text-right {
 		margin-top: 20px;
+		width: 70%;
+		font-size: 15px;
 	}
 	
 	.row-icons {
