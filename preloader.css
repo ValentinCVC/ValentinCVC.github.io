@@ -619,6 +619,11 @@ span.psw {
 
 
 /* DESPRE MINE DESPRE MINE DESPRE MINE DESPRE MINE DESPRE MINE */
+  .despre-titlu {
+	font-size: 35px; 
+	font-weight: bold;
+	font-family: Helvetica;
+  }
 
 .text-right hr {
 	width: 350px; 
@@ -1089,5 +1094,13 @@ hr.card-contact {
 		.text-right hr {
 		width: 250px;
 	}
-	
+	  .despre-titlu hr {
+	width: 250px; 
+	margin-left: 0; 
+	margin-top: 0; 
+	height: 1px; 
+	color: black; 
+	border: none; 
+	background-color: black;
+}
 }
