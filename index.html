@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -29,22 +29,22 @@
 
     <div class="colaj">
         <div class="box">
-            <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;"
-                class="text1">DESPRE MINE</button>
+            <a onclick="document.getElementById('id01').style.display='block'" style="width:auto;" class="text1">DESPRE
+                MINE</a>
             <img src="resurse/about-me.jpg" alt="about me">
         </div>
         <div class="box">
-            <button onclick="document.getElementById('id02').style.display='block'" style="width:auto;"
-                class="text2">ABILITATI</button>
+            <a onclick="document.getElementById('id02').style.display='block'" style="width:auto;"
+                class="text2">ABILITATI</a>
             <img src="resurse/skills.jpg" alt="skills">
         </div>
         <div class="box">
-            <button onclick="document.getElementById('id03').style.display='block'" style="width:auto;"
-                class="text3">CONTACT</button>
+            <a onclick="document.getElementById('id03').style.display='block'" style="width:auto;"
+                class="text3">CONTACT</a>
             <img src="resurse/contact.jpg" alt="contact">
         </div>
     </div>
-    
+
 
     <!-- Despre mine -->
     <div id="id01" class="modal">
@@ -64,19 +64,21 @@
                         <span style="font-size: 35px; font-weight: bold;">DESPRE MINE</span>
                         <hr>
                         <br><br>
-                        Buna ziua, numele meu este Costache Valentin Claudiu. Locuiesc in Bucuresti si anul acesta
-                        am
-                        terminat Facultatea de Informatica Economica din cadrul Universitatii Romano-Americane.
-                        Domeniile in
-                        care am cele mai multe cunostinte sunt HTML5, CSS3, JavaScript. Pe langa acestea, am cunostinte si
-                        in
-                        Adobe Photoshop.
+                        <span class="text1-despremine">Buna ziua, numele meu este Costache Valentin Claudiu. Locuiesc in
+                            Bucuresti si anul acesta
+                            am
+                            terminat Facultatea de Informatica Economica din cadrul Universitatii Romano-Americane.
+                            Domeniile in care am cele mai multe cunostinte sunt HTML5, CSS3, JavaScript. Pe langa
+                            acestea,
+                            am cunostinte si in Adobe Photoshop.</span>
 
                         <br><br><br><br><br><br><br>
-                        Ca si persoana sunt perseverent, flexibil, dornic sa invat lucruri noi si pregatit sa accept
-                        noi
-                        provocari. Sunt pasionat de Web Development si Web Design, mereu incerc sa dau tot ce am
-                        mai bun pentru a crea "produsul perfect".
+                        <span class="text2-despremine">Ca si persoana sunt perseverent, flexibil, dornic sa invat
+                            lucruri noi si pregatit sa
+                            accept
+                            noi
+                            provocari. Sunt pasionat de Web Development si Web Design, mereu incerc sa dau tot ce am
+                            mai bun pentru a crea "produsul perfect".</span>
                     </div>
                 </div>
             </div>
@@ -202,6 +204,7 @@
     <!-- Contact -->
 
 
+
     <footer class="footer-distributed">
 
         <div class="footer-logo">
@@ -246,7 +249,7 @@
 
 
             $('#preloader').delay(1500).animate({ top: '-100%' }, 2000, $.bez([0.19, 1, 0.22, 1]));
-            
+
             TweenMax.from(".dropdown", 1.5, {
                 delay: 1.8,
                 x: 400,
@@ -298,8 +301,8 @@
         var modal = document.getElementById('id02');
         var modal = document.getElementById('id03');
 
-        
-         function myFunction() {
+
+        function myFunction() {
             document.getElementById("myDropdown").classList.toggle("show");
         }
 
@@ -321,7 +324,7 @@
 
     <div class="bgimg"></div>
 
-        <div class="dropdown">
+    <div class="dropdown">
         <i onclick="myFunction()" class="dropbtn fa fa-bars"></i>
         <div id="myDropdown" class="dropdown-content">
             <a class="text-dropdown" onclick="document.getElementById('id01').style.display='block'">DESPRE MINE</a>
