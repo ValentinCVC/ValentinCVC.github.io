@@ -625,6 +625,16 @@ span.psw {
 	font-family: Helvetica;
   }
 
+  .despre-titlu hr {
+	width: 300px; 
+	margin-left: 0; 
+	margin-top: 0; 
+	height: 1px; 
+	color: black; 
+	border: none; 
+	background-color: black;
+}
+  
 .text-right hr {
 	width: 350px; 
 	margin-left: 0; 
