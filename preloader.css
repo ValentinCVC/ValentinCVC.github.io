@@ -726,10 +726,9 @@ hr.card-contact {
 }
 .sm a {
 	padding: 20px;
-}
-.sm a {
 	text-decoration: none;
 	color: white;
+	display: inline;
 }
 
 /* Responsive */
