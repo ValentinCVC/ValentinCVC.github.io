@@ -597,6 +597,17 @@ span.psw {
 	}
 }
 
+
+.text-javascript {
+	width: 10%;
+	position: absolute;
+	top: 45%;
+	left: 34.5%;
+	text-align: center;
+	font-family: "Calibri";
+	font-size: 17px;
+}
+
 @media (max-width: 400px) {
 	body {
 		margin: 0;
@@ -724,6 +735,11 @@ span.psw {
 	.abilitati-titlu {
 		  margin-top: -50px;
 	  }
+	.text-javascript {
+		position: absolute;
+		top: 45%;
+		left: 34%;
+	}
 }
 
 
@@ -964,15 +980,7 @@ hr.card-contact {
 	font-family: "Calibri";
 	font-size: 17px;
 }
-.text-javascript {
-	width: 10%;
-	position: absolute;
-	top: 45%;
-	left: 34.5%;
-	text-align: center;
-	font-family: "Calibri";
-	font-size: 17px;
-}
+
 .text-php {
 	width: 10%;
 	position: absolute;
