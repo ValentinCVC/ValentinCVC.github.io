@@ -960,6 +960,7 @@ hr.card-contact {
 	}
 	
 	.text-right {
+		margin-left: 50px;
 		margin-top: 20px;
 		width: 70%;
 		font-size: 18px;
