@@ -362,7 +362,7 @@ footer{
 
 
 /* Set a style for all buttons */
-button {
+a {
 	background-color: transparent;
 	color: white;
 	padding: 14px 20px;
@@ -372,7 +372,7 @@ button {
 	width: 100%;
 }
 
-button:hover {
+a:hover {
 	opacity: 0.8;
 }
 
