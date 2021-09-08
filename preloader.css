@@ -63,8 +63,8 @@ display: none;
 margin: 0;
 padding: 0;
 width:100%;
-height:100vh;
-background:#101010;
+height:100%;
+background: #101010;
 overflow:hidden;
 position:fixed;
 transition-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
@@ -180,7 +180,6 @@ footer{
 
 @media (max-height: 800px){
 	footer { position: static; }
-	header { padding-top:40px; }
 }
 
 
@@ -336,6 +335,8 @@ footer{
 	margin-left: -70px;
   }
 
+
+
 	.footer-distributed .footer-logo,
 	.footer-distributed .footer-left,
 	.footer-distributed .footer-center,
@@ -480,6 +481,7 @@ span.psw {
 	}
 }
 
+
 @media (max-width: 400px) {
 	.logo {
 		filter: invert(0);
@@ -568,7 +570,7 @@ span.psw {
 @media (max-width: 500px) {
 	.title {
 		font-size: 30px;
-		margin-left: 40px;
+		margin-left: 45px;
 	}
 	.title2 {
 		margin-top: 50px;
@@ -596,7 +598,34 @@ span.psw {
 }
 
 
+.text-javascript {
+	width: 10%;
+	position: absolute;
+	top: 45%;
+	left: 34.5%;
+	text-align: center;
+	font-family: "Calibri";
+	font-size: 17px;
+}
+
+.text-right {
+	text-align: justify;
+	margin-top: 80px;
+	margin-left: 120px;
+	width: 60%;
+	font-size: 18px;
+	font-family: Comic Sans MS;
+}
+
+
 /* DESPRE MINE DESPRE MINE DESPRE MINE DESPRE MINE DESPRE MINE */
+
+.text-right hr {
+	width: 350px; 
+	margin-left: 0; 
+	margin-top: 0;
+}
+
 .left {
 	width: 50vw;
 	background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("resurse/vitaly-taranov-fW2jv1L7yeA-unsplash.jpg");
@@ -613,14 +642,6 @@ span.psw {
     background-position: center;
 }
 
-.text-right {
-	text-align: justify;
-	margin-top: 80px;
-	margin-left: 120px;
-	width: 60%;
-	font-size: 18px;
-	font-family: Comic Sans MS;
-}
 
 @media (max-width: 574px) {
 	.text-right {
@@ -634,9 +655,6 @@ span.psw {
 		width: 100%;
 	}
 }
-  
-
-
 
 /* DESPRE MINE DESPRE MINE DESPRE MINE DESPRE MINE DESPRE MINE */
 
@@ -765,7 +783,6 @@ hr.card-contact {
 
 .left-abilitati {
 	width: 50vw;
-	height: 100%;
 	background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("resurse/2-abilitati.png");
 	background-size: cover;
     background-position: center;
@@ -836,17 +853,6 @@ hr.card-contact {
 	font-family: "Calibri";
 	font-size: 17px;
 }
-
-.text-javascript {
-	width: 10%;
-	position: absolute;
-	top: 45%;
-	left: 34.5%;
-	text-align: center;
-	font-family: "Calibri";
-	font-size: 17px;
-}
-
 
 .text-php {
 	width: 10%;
@@ -944,18 +950,40 @@ hr.card-contact {
 
 
 @media (max-width: 400px) {
-
 	body {
 		margin: 0;
 		padding: 0;
+		width: 100%;
   		font-family: "Helvetica";
   		background: #e3e3e3;
 	}
 	
+	.text-right {
+		margin-left: 50px;
+		margin-top: 20px;
+		width: 70%;
+		font-size: 18px;
+	}
+	
+	.row-icons {
+		margin-top: -20px;
+		margin-left: -5px;
+	  }
+	.row-icons2 {
+		margin-top: -20px;
+		margin-left: -5px;
+	  }
+	
+	.text-right hr {
+		width: 250px; 
+		margin-left: 0; 
+		margin-top: 0;
+	}
 	.footer-distributed {
 		width: 100%;
-		margin-left: 0;
+		margin-left: 0px;
 		background-color: #b2b2b2;
+		margin-bottom: 185px;
 	}
 	
 	.footer-distributed .footer-logo,
@@ -963,29 +991,28 @@ hr.card-contact {
 	.footer-distributed .footer-center,
 	.footer-distributed .footer-right{
 		display: block;
-		width: 120%;
+		width: 130%;
 		margin-bottom: 30px;
 		text-align: center;
 		margin: 30px;
-		margin-left: -70px;
+		margin-left: -100px;
 		margin-top: -30px;
-
 	}
+	
 	.logo {
 		position: absolute;
-		top: 20px;
-		left: 170px;
-
+		top: 15px;
+		left: 175px;
 	}
 	.title {
 		font-size: 30px;
 		text-align: center;
 		margin-top: 50px;
-		margin-left: 10px;
+	        margin-left: 0px;
 	}
 	.title2 {
 		margin-top: 80px;
-		margin-left: 10px;
+		margin-left: -15px;
 	}
 	img {
 		display: none;
@@ -997,15 +1024,21 @@ hr.card-contact {
 	}
 	.text2 {
 		margin-top: 65px;
+		margin-left: 25px;
 		display: none;
 	}
 	.text3 {
 		margin-top: 120px;
-		margin-left: 27px;
+		margin-left: 23px;
 		display: none;
 	}
-
-	.text-dropdown {
+	.right {
+                height: 100%;
+	}
+	.sm {
+	margin-top: -20px;
+	}
+		.text-dropdown {
 		width: auto;
 	}
 
@@ -1015,7 +1048,8 @@ hr.card-contact {
 		padding: 16px;
 		font-size: 16px;
 		border: none;
-		cursor: pointer;	  }
+		cursor: pointer;
+	  }
 	
 	.dropdown {
 		display: inline-block;
@@ -1041,30 +1075,19 @@ hr.card-contact {
 	  .dropdown a:hover {background-color: #ddd;}
 	  
 	  .show {display: block;}
-
-	  .row-icons {
+	
+	.abilitati-titlu {
 		  margin-top: -50px;
-		  margin-left: -5px;
 	  }
-	  .abilitati-titlu {
-		  margin-top: -30px;
-	  }
-	  .text-javascript {
-		width: 10%;
+	.text-javascript {
 		position: absolute;
 		top: 45%;
 		left: 30%;
+		width: 10%;
 		text-align: center;
-		font-family: "Calibri";
-		font-size: 17px;
 	}
-	.text-right {
-		margin-top: 20px;
-		width: 70%;
-		font-size: 15px;
+		.text-right hr {
+		width: 250px;
 	}
-	.text-right hr {
-		width: 50px;
-		color: red;
-	}
+	
 }
